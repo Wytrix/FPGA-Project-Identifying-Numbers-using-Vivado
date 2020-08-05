@@ -3,7 +3,7 @@ FPGA-Project-Identifying-Numbers-using-Vivado
 Vivado版本：2018.3  
 开发板：sea-s7  
 芯片：xilinx Spartan-7  
-外设:ov5647摄像头 miniHDMI-to-HDMI连接线 HDMI显示器  
+外设：ov5647摄像头 miniHDMI-to-HDMI连接线 HDMI显示器  
 images为README中相关的图片  
 Sourcecode为Vivado工程文件  
 ExecutableFiles为比特流文件  
