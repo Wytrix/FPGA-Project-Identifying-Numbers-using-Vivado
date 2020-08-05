@@ -72,4 +72,4 @@ for(i = 0; cfg_ov5647_init[i].addr != 0xffff; i++)
 ### 完成的功能：
 实现了对单个正向放置的清晰数字的识别和显示。  
 
-参考工程[https://github.com/liuweistrong/Digital-Recognition]
+参考工程[https://github.com/liuweistrong/Digital-Recognition.git]
