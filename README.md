@@ -22,7 +22,8 @@ ExecutableFiles为比特流文件
 	4.system_bayer2rgb_0_0 bayer2rgb_0 ();这是将bayer阵列获取的数据转化为RGB格式图像的实例化；  
 	以上的各个模块都封装成IP，在system函数中直接例化就可以直接使用。  
 ### OV5647摄像头的初始化：
-  系统采用MicroBlaze软核对摄像头进行控制，在软核上编程C语言程序实现OV5647摄像头的初始化； ```
+  系统采用MicroBlaze软核对摄像头进行控制，在软核上编程C语言程序实现OV5647摄像头的初始化； 
+```
 struct config_word_t cfg_ov5647_init[] =
 {
 		{0x0100, 0x00},
@@ -34,7 +35,8 @@ struct config_word_t cfg_ov5647_init[] =
 };
 ```
   该结构体表示的是I2C的传输状态机。  
-  再使用以下的for循环进行初始化。  ```
+  再使用以下的for循环进行初始化。  
+```
 for(i = 0; cfg_ov5647_init[i].addr != 0xffff; i++)
 		writeReg(cfg_ov5647_init[i].addr, cfg_ov5647_init[i].data);
 ```
