@@ -1,6 +1,6 @@
 # FPGA-Project-Identifying-Numbers-using-Vivado
 FPGA-Project-Identifying-Numbers-using-Vivado  
-2020XILINX暑期学校数字识别项目  
+2020东南大学-XILINX暑期学校数字识别项目  
 
 Vivado版本：2018.3  
 开发板：sea-s7  
